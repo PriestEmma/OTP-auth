@@ -144,7 +144,7 @@ function checkAuthentication() {
 function welcomePage() {
   if (localStorage.verified === 'true') {
     setTimeout(() => {
-      window.location.replace('https://leno-website-app.netlify.app/');
+      window.location.replace('https://leno-web-app.netlify.app/');
       console.log('welcome');
     }, 2000);
   }
